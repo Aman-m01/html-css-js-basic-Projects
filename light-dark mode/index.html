@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-mode">
+    <div class="container">
+      <button class="toggle-theme">light mode</button>
+
+      <h1><span>JavaScript</span></h1>
+      <p>
+        <span>>> </span>JavaScript is a high-level, interpreted programming
+        language that is widely used to create interactive effects within web
+        browsers. It's one of the core technologies of the web, along with HTML
+        and CSS, and it allows developers to add dynamic content to websites.
+      </p>
+      <br />
+
+      <h1><span>Properties of JS</span></h1>
+      <p>
+        <span>1. Interpreted</span> <br />
+        JavaScript is an interpreted language, meaning it's executed
+        line-by-line at runtime by the JavaScript engine in the browser or
+        server environment, rather than being compiled into machine code
+        beforehand. JavaScript engines like Google's V8 (used in Chrome and Node.js) have optimized this process by using a technique called Just-In-Time (JIT) compilation. With JIT, parts of the code that are run frequently are compiled into machine code on the fly, which improves performance while still allowing the flexibility of an interpreted language.
+      </p>
+      <br />
+      <p>
+        <span>2. Dynamically Typed</span> <br />
+        Variables in JavaScript are not bound to a specific data type. Types are
+        determined at runtime and can change as the program executes. dynamically typed means that the type of a variable is determined at runtime rather than at compile-time. You don't need to declare the type of a variable when you define it. Instead, the type is automatically assigned based on the value you assign to the variable.
+      </p>
+      <br />
+      <p>
+        <span>3. Single threaded</span> <br />
+        JavaScript executes code in a single-threaded environment, meaning it
+        processes one task at a time. This single-threaded nature is often described as part of JavaScript's event-driven, non-blocking I/O model. Instead of creating multiple threads to handle different tasks simultaneously, JavaScript uses an event loop to manage asynchronous operations, allowing the engine to perform other tasks (like waiting for I/O operations) while still being able to respond to new events when the main thread is free.
+      </p>
+      <br />
+      <p>
+        <span>4. Garbage collected</span> <br />
+        JavaScript automatically manages memory allocation and deallocation
+        through garbage collection, which helps prevent memory leaks by
+        automatically reclaiming memory used by objects no longer in use. garbage collection in JavaScript ensures efficient memory management, allowing developers to focus more on writing code rather than worrying about memory allocation and deallocation.
+      </p>
+      <br />
+      <h1><span>Execution context</span></h1>
+      <br />
+      <div class="img">
+        <img src="./execution context.png" alt="" width="100%" />
+      </div>
+    </div>
+
+    <script>
+      document.body.classList.toggle("dark-mode");
+      const toggleButton = document.querySelector(".toggle-theme");
+      toggleButton.addEventListener("click", () => {
+        if (document.body.classList.toggle("dark-mode")) {
+          toggleButton.innerHTML = "Light Mode >>";
+        } else {
+          toggleButton.innerHTML = "Dark Mode >>";
+        }
+      });
+    </script>
+  </body>
+</html>
