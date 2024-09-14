@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+}
+.container h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: lightseagreen;
+  background-color: bisque;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.game_board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: -3px;
+}
+
+.restart-button {
+  /* display: block; */
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  transition: background 0.4s;
+  font-size: 12px;
+  align-items: center;
+  margin-top: 10%;
+}
+.restart-button:hover {
+  background-color: rgb(69, 59, 59);
+  color: white;
+  font-size: 14px;
+}
+
+.winner-message {
+  /* display:none; */
+  font-size: 15rem;
+  background-color: rgb(90, 133, 155);
+  width: 80vw;
+  height: 63vh;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.winner-message {
+  border: 2px solid rgb(226, 231, 243);
+  border-radius: 20px;
+}
+
+#winner-text {
+  font-size: 5rem;
+  margin-left: 15%;
+}
+#winner-text1 {
+  font-size: 6rem;
+}
