@@ -10,6 +10,8 @@ This repository contains 30 simple projects built using HTML, CSS, and JavaScrip
 4. [Project 4: Light/Dark Theme](./light-dark%20mode/) *[👆🏻👆🏻live link](https://other12121.netlify.app/)* 
 5. [Project 5: Tic-tac-toe ](./tiic_tac_toe_game/)
 6. [Project 6: Profile Card](./profile_card/)
+7. [project 7: Gradient Text](./gradient%20text/)
+8. [project 8: Heart Trail Animation](./heart_trail_animation/)
 
 
 
