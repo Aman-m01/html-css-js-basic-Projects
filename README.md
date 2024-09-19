@@ -12,7 +12,7 @@ This repository contains 30 simple projects built using HTML, CSS, and JavaScrip
 6. [Project 6: Profile Card](./profile_card/)
 7. [project 7: Gradient Text](./gradient%20text/)
 8. [project 8: Heart Trail Animation](./heart_trail_animation/)
-
+9. [project 9: Buttons ](./buttons/)
 
 
 
