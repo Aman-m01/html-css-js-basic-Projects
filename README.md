@@ -13,6 +13,8 @@ This repository contains 30 simple projects built using HTML, CSS, and JavaScrip
 7. [project 7: Gradient Text](./gradient%20text/)
 8. [project 8: Heart Trail Animation](./heart_trail_animation/)
 9. [project 9: Buttons ](./buttons/)
+10. [project 10: Color Switcher](./color_switcher/)
+11. [Projects 11: Random Emoji Generator](./random_emoji/)
 
 
 
