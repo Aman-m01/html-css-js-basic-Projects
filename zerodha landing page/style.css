@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 18px;
+  box-shadow: 0px 1px 2px #eee;
+  height: 68px;
+ 
+}
+
+.logo {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+.links1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+
+  margin-left: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: #387ed1;
+}
+
+.menu-img{
+  padding-top: 5px;
+}
+
+.hero-section {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt {
+  padding-top: 60px;
+
+  font-size: 2.85rem;
+  line-height: 1.25;
+  color: #424242;
+  text-align: center;
+  font-weight: 500;
+}
+.txt1 {
+  padding-top: 15px;
+  color: #666;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.btn {
+  text-align: center;
+}
+
+.btn1 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.btn1 button {
+  cursor: pointer;
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  padding: 12px 34px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;}
+
+  .btn1 button:hover{
+    background-color: #111317;
+
+  }
