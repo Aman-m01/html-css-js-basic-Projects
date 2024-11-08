@@ -18,6 +18,7 @@ This repository contains 30 simple projects built using HTML, CSS, and JavaScrip
 12. [project 12 : Login and signup form](./login_form/)
 13. [Project 13: simple zerodha landing page](./zerodha%20landing%20page/)
 14. [project 14: To-Do list](./todo/)
+15. [project 15: Amazon Clone](./amazon%20clone/index.html)
 
 
 
